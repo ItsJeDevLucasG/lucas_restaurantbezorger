@@ -72,5 +72,3 @@ document.addEventListener("keydown", function(e) {
 window.addEventListener("DOMContentLoaded", () => {
     showPage("home");
 });
-
-

@@ -137,6 +137,11 @@ AddEventHandler('lucas:restaurantbezorger:getData', function(id)
     return GetData(id)
 end)
 
+RegisterServerEvent('lucas:restaurantbezorger:resetOrder')
+AddEventHandler('lucas:restaurantbezorger:resetOrder', function(orderId, id)
+
+end)
+
 RegisterServerEvent('lucas:restaurantbezorger:finishOrder')
 AddEventHandler('lucas:restaurantbezorger:finishOrder', function(id, orderId)
     local xPlayer = ESX.GetPlayerFromId(id)
@@ -224,7 +229,4 @@ AddEventHandler('lucas:restaurantbezorger:maakOrder', function(id)
     TriggerClientEvent('lucas:restaurantbezorger:maakOrderClient', id, afhaalLocatie, bezorgLocatie, restaurant, orderId, vehicle)
     SNotify(id, 'success', 'Bezorger', 'Je hebt een nieuwe bestelling gestart, je moet naar de locatie aangegeven op je GPS en je rijd voor het bedrijf: ' .. restaurant .. '.')
     SNotify(id, 'inform', 'Bezorger', 'De order info is alsvolgd: OrderId: ' .. orderId .. ', je vervoert de volgende item(s): ' .. table.unpack(items) .. ', de persoon zijn naam is: ' .. naamBestelling .. '.', 15000)
-
 end)
-
-
