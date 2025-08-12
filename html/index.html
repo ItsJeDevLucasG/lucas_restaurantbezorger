@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lucas Bezorger Script</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/f345814c2e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="bar">
+            <button class="homeButton" onClick="gotoHome()"><i class="fa-solid fa-circle-user"></i></button>
+            <button class="leveringenButton" onclick="gotoLeveringen()"><i class="fa-solid fa-box"></i></button>
+            <button onclick="sluiten()"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+
+        <div class="topbar">
+            <h1 id="titel">HOME PAGINA</h1>
+        </div>
+
+        <div class="home">
+            <div class="blok">
+                <h1 id="GeldIndicator">€ Laden...</h1>
+                <p>Totaal Verdient</p>
+                <i class="fa-solid fa-money-bill"></i>
+            </div>
+            <div class="blok">
+                <h1 id="RittenIndicator">Laden...</h1>
+                <p>Ritten Gereden</p>
+                <i class="fa-solid fa-road"></i>
+            </div>
+            <div class="blok2">
+                <h1 id="XPIndicator">Laden...</h1>
+                <p>XP</p>
+                <i class="fa-solid fa-star"></i>
+            </div>
+            <div class="blok2">
+                <h1 id="LevelIndicator">Laden...</h1>
+                <p>Level</p>
+                <i class="fa-solid fa-star"></i>
+            </div>
+        </div>
+
+        <div class="leveringen">
+            <div class="megablok">
+                <p>Start nieuwe opdrachten</p>
+                <button onclick="startLevering()">Start nieuwe levering</button>
+            </div>
+            <div class="megablok2" id="beheerLevering">
+                <p>Beheer de actieve levering</p>
+                <button onclick="eindigLevering()">Eindig huidige levering</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

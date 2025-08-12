@@ -1,0 +1,208 @@
+* { 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    display: none;
+    background-color: rgba(83, 83, 83, 0.514);
+    margin-left: 12.5%;
+    margin-top: 5%;
+    width: 1400px;
+    height: 700px;
+    border-radius: 10px;
+}
+
+.bar {
+    background-color: rgba(46, 46, 46, 0.514);
+    width: 4%;
+    height: 100%;
+    border-radius: 10px;
+    float: left;
+    margin-right: 10px;
+}
+
+.bar i {
+    color: white;
+    scale: 2;
+}
+
+.bar button {
+    margin-top: 55px;
+    border-radius: 10px;
+    background-color: transparent;
+    width: 100%;
+    height: 50px;
+    border-color: transparent;
+    transition: 0.5s;
+}
+
+.bar button:hover {
+    border-radius: 10px;
+    background-color: rgb(7, 136, 211);
+    width: 100%;
+    height: 50px;
+    border-color: transparent;
+    transition: 0.5s;
+}
+
+.bar button.active {
+    background-color: rgb(7, 136, 211);
+    color: white;
+}
+
+.topbar h1 {
+    color: white;
+    font-weight: 700;
+    font-size: x-large;
+    line-height: 30px;
+    margin-left: 20px;
+    float: left;
+}
+
+.home {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-top: 100px;
+    padding-left: 80px;
+}
+
+.blok, .blok2 {
+    height: 150px;
+    width: 300px;
+    background-color: rgba(46, 46, 46, 0.514);
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    float: left;
+    margin-left: 20px;
+}
+
+.blok h1 {
+    float: left;
+    color: rgb(147, 231, 22);
+    padding-left: 20px;
+    padding-top: 25px;
+}
+
+.blok p, .blok2 p {
+    float: left;
+    padding-top: 90px;
+    padding-left: 15px;
+    font-size: large;
+    font-weight: bold;
+}
+
+.blok i {
+    float: right;
+    color: rgb(147, 231, 22);
+    padding-right: 20px;
+    padding-top: 25px;
+    scale: 4;
+}
+
+.blok2 h1 {
+    float: left;
+    color: rgb(7, 136, 211);
+    padding-left: 20px;
+    padding-top: 25px;
+}
+
+.blok2 i {
+    float: right;
+    color: rgb(7, 136, 211);
+    padding-right: 20px;
+    padding-top: 25px;
+    scale: 4;
+}
+
+.leveringen {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-top: 100px;
+    padding-left: 80px;
+}
+
+.megablok {
+    height: 150px;
+    width: 1250px;
+    background-color: rgba(46, 46, 46, 0.514);
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.megablok button {
+    border-radius: 10px;
+    background-color: rgb(8, 109, 168);
+    width: 300px;
+    color: white;
+    height: 50px;
+    border-color: transparent;
+    float: right;
+    margin-right: 50px;
+    margin-top: 50px;
+    font-size: larger;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.megablok p {
+    color: white;
+    float: left;
+    font-size: x-large;
+    font-weight: bold;
+    margin-left: 60px;
+    margin-top: 60px;
+}
+
+#beheerLevering {
+    display: none;
+}
+
+.megablok2 {
+    height: 150px;
+    width: 1250px;
+    background-color: rgba(46, 46, 46, 0.514);
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.megablok2 button {
+    border-radius: 10px;
+    background-color: rgb(8, 109, 168);
+    width: 300px;
+    color: white;
+    height: 50px;
+    border-color: transparent;
+    float: right;
+    margin-right: 10px;
+    margin-top: 50px;
+    font-size: larger;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.megablok2 p {
+    color: white;
+    float: left;
+    font-size: x-large;
+    font-weight: bold;
+    margin-left: 60px;
+    margin-top: 60px;
+    margin-right: 540px;
+}
+
+#beheerLevering button:hover,
+.megablok button:hover {
+    background-color: rgb(7, 136, 211);
+    transition: 0.5s;
+}
